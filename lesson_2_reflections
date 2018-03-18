@@ -64,3 +64,13 @@ works.
 You could have an active development branch, where active development is taking place on your project.
 Experimental branch, where you expect stuff to break - but you want to share it with the public or whatever.
 
+Question:
+How do the diagrams help you visualize the branch structure?
+
+Answer:
+The diagrams help me visualize the branch structure in a way where it's like a tree hierarchy. They branch off
+from the master. Still haven't learned how to merge, so I feel like I'm missing some information. Will keep
+watching and learning.
+
+'git log --graph --oneline branch1(usually master) branch2'
+
