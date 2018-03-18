@@ -1,0 +1,59 @@
+Question:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer:
+Using the difference command (git diff old new) OR (df -u old new) helped compare the 2 files, and 
+highlight the lines of which changed from 1 file to the other.
+
+Question:
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+Answer:
+Having access to the entire history of a file will allow programmers to see what has already 
+been tried and failed, changed, or accomplished. Thus saving them some time in not attempting to
+write the same procedures and such.
+
+Question:
+What do you think are the pros and cons of manually choosing when to create a commit, like you
+do in Git, vs having versions automatically saved, like Google Docs does?
+
+Answer:
+The pros of having to manually choose when to create a commit vs automatically saved, like Google
+docs;
+	- More fine control of logical commits
+	- Can choose when to commit
+	- Don't have to wait for commits...
+
+cons;
+	- Having to manually commit, meaning be conscious of it
+	- ???
+
+Question:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+Answer:
+Some version control systems, like Git, allow for saving multiple files in one commit because it 
+makes more logical sense to group up objects that are relatable to one another.
+
+The others, like Google Docs, treat each file separately because there is logically only 1 file that
+you're working on at a time... Everything relatable WILL be in that file.
+
+Question:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer:
+Easy, you open a terminal and type 'git log' inside a downloaded git repository 
+(git clone https://github.com/~.git) so you can see each unique ID for each commit.
+
+Than if you now want to compare 2 commits to see what has changed exactly between the 2 files, 'git diff ID#2 ID#1'
+
+Question:
+How might using version control make you more confident to make changes that could break something?
+
+Answer:
+Using a version control system such as Git, could make me more confident to make changes in my code for example.
+It has a chance that changes could break something, yes -- but with the ability to use 'git checkout uniqueID'
+that allows me to 'roll-back' type say and test out the previous commits like they were compiled.
+

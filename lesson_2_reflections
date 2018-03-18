@@ -1,0 +1,9 @@
+Question:
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer:
+When you initialize a repository with 'git init' - git creates a .git file which is hidden
+from the average user. This file is needed because it contains a bunch of metadata about the 
+history of the repository (commits, changes, etc) since it was created.
+
+
