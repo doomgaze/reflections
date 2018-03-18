@@ -18,3 +18,25 @@ from the 'staging area --> repository'.
 
 The value it offers, the way I understand and see it right now is that it's almost like an area
 where you are commited to pushing these changes but haven't fully commited yet.
+
+Question:
+How can you use the staging area to make sure you have one commit per logical change?
+
+		-------------------------------------------------
+		| Working Directory | Staging Area | Repository |
+		------------------------------------------------- 
+
+Answer:
+You can use the staging area to make sure you have one commit per logical change by comparing
+the working directory to the staging area by 'git diff'. 
+
+This compares changes you've made locally and the files which are in the staging area (will be 
+the latest commit in repository, if you didn't add anything to staging at this point).
+
+You can than 'git add <filename>' to add the file to git's staging area. From here -- you can run
+'git diff --staged' to compare the item(s) in the staging area to the latest commit in the 
+repository.
+
+If you're satisfied with the changes - 'git commit', add an appropriate comment and save. Keep adding
+and commiting until have all what you want commited. If there's anything you DONT want to commit --
+doing a 'git reset --hard' will discard any changes in either the working directory or staging area.
