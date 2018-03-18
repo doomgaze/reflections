@@ -74,3 +74,12 @@ watching and learning.
 
 'git log --graph --oneline branch1(usually master) branch2'
 
+Question:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer:
+The result of merging 2 branches together, adds the changes from 1 branch, to the master branch. We do this
+by using 'git merge <masterBranch> <otherBranch>'. //more to this, I couldn't get the index.html actually 
+working after the merge... so I got a bit frustrated. Going to move on and hope it's just an isolated problem.
+
+You can use 'git show <commit ID>' to see changes just in that one commit.
