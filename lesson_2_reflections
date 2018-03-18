@@ -40,3 +40,27 @@ repository.
 If you're satisfied with the changes - 'git commit', add an appropriate comment and save. Keep adding
 and commiting until have all what you want commited. If there's anything you DONT want to commit --
 doing a 'git reset --hard' will discard any changes in either the working directory or staging area.
+
+Question:
+What are some situations when brances would be helpful in keeping your history orangized? how would
+branches help?
+
+//some commands
+- 'git branch' to see all the branches
+- 'git branch <name>' to create a new branch
+- 'git checkout <branch name>' to change branches
+
+Answer:
+Some situations when brances would be helpful in keeping your history organized would be;
+	- Making an experimental feature
+	- Create a dev test branch (making it easier, various commands maybe)
+	- Major patch increments (v9, v10, v11 versus minor e.g. 9.32.v2, 9.32.v5 rev2)
+	- Different languages e.g. Italian, Russian, German, etc.
+
+Branches helps when you switch to work on a new feature or bug, when a big change is introduced and
+you want to maybe merge it later on into the MASTER production quality branch that never breaks, always
+works.
+
+You could have an active development branch, where active development is taking place on your project.
+Experimental branch, where you expect stuff to break - but you want to share it with the public or whatever.
+
