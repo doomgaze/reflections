@@ -6,4 +6,15 @@ When you initialize a repository with 'git init' - git creates a .git file which
 from the average user. This file is needed because it contains a bunch of metadata about the 
 history of the repository (commits, changes, etc) since it was created.
 
+Question:
+How is the staging area different from the working directory and the repository? What value do
+you think it offers?
 
+Answer:
+The staging area is different from both the working directory and the repository by being the
+intermediary for them both. It allows for you to add commits to a pool 
+'working directory --> staging area' and if you're satisfied with your work, you can commit it 
+from the 'staging area --> repository'.
+
+The value it offers, the way I understand and see it right now is that it's almost like an area
+where you are commited to pushing these changes but haven't fully commited yet.
