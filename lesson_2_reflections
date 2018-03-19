@@ -79,10 +79,12 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Answer:
 The result of merging 2 branches together, adds the changes from 1 branch, to the master branch. We do this
-by using 'git merge <masterBranch> <otherBranch>'. //more to this, I couldn't get the index.html actually 
-working after the merge... so I got a bit frustrated. Going to move on and hope it's just an isolated problem.
+by using 'git merge <masterBranch> <otherBranch>'. This allows us to connect to the master branch and all of
+our other commits will be seen going back from 1 branch.
 
-You can use 'git show <commit ID>' to see changes just in that one commit.
+- You can use 'git show <commit ID>' to see changes just in that one commit.
+- You can use 'git branch -d <branch name>' to delete the branch HEADER, do this after merging if you're 
+  satisfied with the branch and it doesn't need to stay it's own branch (like experimental or dev branch).
 
 Question:
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
