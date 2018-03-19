@@ -83,3 +83,10 @@ by using 'git merge <masterBranch> <otherBranch>'. //more to this, I couldn't ge
 working after the merge... so I got a bit frustrated. Going to move on and hope it's just an isolated problem.
 
 You can use 'git show <commit ID>' to see changes just in that one commit.
+
+Question:
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Answer:
+Uhmmm from what I understand so far -- the pros are that it auto generates commit comments for you. The cons?
+I'm not sure.....!!
